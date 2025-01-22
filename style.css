@@ -1,98 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f9f9f9;
-  color: #333;
-  margin: 0;
-  padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
 }
 
 header {
-  background-color: #ffb3e6;
-  padding: 20px;
-  text-align: center;
-}
-
-header h1 {
-  margin: 0;
+    background-color: #ffcc00;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
 }
 
 nav ul {
-  list-style-type: none;
-  padding: 0;
+    list-style: none;
+    padding: 0;
 }
 
 nav ul li {
-  display: inline;
-  margin: 0 10px;
+    display: inline;
+    margin-right: 20px;
 }
 
 nav ul li a {
-  text-decoration: none;
-  color: #333;
+    color: #fff;
+    text-decoration: none;
 }
 
-main {
-  padding: 20px;
+h1, h2 {
+    color: #ff6600;
 }
 
-.intro h2 {
-  color: #ff66b3;
-}
-
-.slime-gallery {
-  margin-top: 40px;
-}
-
-.slime-images img {
-  width: 100%;
-  max-width: 300px;
-  margin: 10px;
-  border-radius: 8px;
-}
-
-.product-list {
-  margin-top: 30px;
-}
-
-.products, .merch {
-  display: flex;
-  flex-wrap: wrap;
+.hero {
+    background-color: #ffcc00;
+    padding: 20px;
+    text-align: center;
 }
 
 .product {
-  background-color: #fff;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  width: 200px;
-  margin: 10px;
-  padding: 10px;
-  text-align: center;
+    display: inline-block;
+    width: 45%;
+    margin: 20px;
+    text-align: center;
 }
 
 .product img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
+    width: 100%;
+    height: auto;
 }
 
 button {
-  background-color: #ff66b3;
-  border: none;
-  color: white;
-  padding: 10px;
-  cursor: pointer;
-  border-radius: 4px;
-}
-
-button:hover {
-  background-color: #ff3385;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
 }
 
 footer {
-  text-align: center;
-  background-color: #ffb3e6;
-  padding: 10px;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
 }
